@@ -46,3 +46,15 @@ E:\gitTest\zuochengyun\.git
 	
 url = git@github.com:xjtuselb/zuochengyun.git
 
+
+-------------------------------------------------------------
+克隆
+git clone git@github.com:xjtuselb/zuochengyun.git
+
+git add .
+
+git commit -m "first commit"
+
+git push origin master
+
+-------------------------------------------------------------
