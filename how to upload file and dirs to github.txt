@@ -1,0 +1,46 @@
+﻿克隆云上的代码
+git clone git@github.com:xjtuselb/zuochengyun.git
+
+查看当前库文件更新的状态
+git status
+
+-------------------------------------------------------------
+ssh秘钥生成
+ssh-keygen -t rsa -C "hest0001@outlook.com"
+
+把
+C:\Users\hest0\.ssh
+下的公钥拷贝到
+github下面的
+https://github.com/settings/profile
+
+校验ssh协议文件是否
+ssh -T git@github.com
+-------------------------------------------------------------
+修改名字和邮箱
+git config --global user.name "hest0001"
+git config --global user.email "hest0001@outlook.com"
+-------------------------------------------------------------
+
+添加自己的远程库
+git remote add origin git@github.com:xjtuselb/zuochengyun.git
+-------------------------------------------------------------
+把要上传的文件添加到当前目录下
+-------------------------------------------------------------
+添加文件到本地库
+git add .
+git add a.txt
+
+本次提交备注
+git commit -m "first commit" 
+
+上传到远程库
+git push origin master
+-------------------------------------------------------------
+如果这样上传不成功，就去修改
+E:\gitTest\zuochengyun\.git
+下的config文件，把url改成自己要上传的url
+[remote "origin"]
+	
+url = git@github.com:xjtuselb/zuochengyun.git
+
