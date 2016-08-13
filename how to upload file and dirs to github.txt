@@ -4,6 +4,8 @@ git clone git@github.com:xjtuselb/zuochengyun.git
 查看当前库文件更新的状态
 git status
 
+查看日志
+git log
 -------------------------------------------------------------
 ssh秘钥生成
 ssh-keygen -t rsa -C "hest0001@outlook.com"
